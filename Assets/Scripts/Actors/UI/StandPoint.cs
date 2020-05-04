@@ -10,11 +10,12 @@ namespace TowerFight
     {
         public DataUnit dataUnit { get; set; }
         public UnityEvent<DataUnit,Transform> OnTabsUnit { get; private set; } = new UnityEvent<DataUnit, Transform>();
-                     
+
         private void OnMouseDown()
         {
-            OnTabsUnit.Invoke(dataUnit,transform);
+            if (dataUnit != null)
+                OnTabsUnit.Invoke(dataUnit, transform);
         }
-        
+
     }
 }

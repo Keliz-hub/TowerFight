@@ -60,7 +60,7 @@ namespace TowerFight
         {
             DataPlayer dataPlayer = DataPlayer.Copy(reference);
 
-            dataPlayer.Gold.Value = (int)data[Gold];
+            dataPlayer.Gold.SetValueAndForceNotify((int)data[Gold]);
 
 
             var unitStats = data[PlayerUnits] as Stats[];

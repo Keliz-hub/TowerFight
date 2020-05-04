@@ -63,7 +63,7 @@ namespace Homebrew
 
               
 
-                dataPlayer.Gold.Subscribe(delegate (int v) { Toolbox.Get<ManagerUI>().gameMenu.Gold = dataPlayer.Gold.ToString(); });
+                dataPlayer.Gold.Subscribe(delegate (int v) { Toolbox.Get<ManagerUI>().gameMenu.Gold = dataPlayer.Gold.ToString();  });
                
             }
             var managerUi = Toolbox.Get<ManagerUI>();
@@ -71,7 +71,7 @@ namespace Homebrew
             managerUi.OnBattleClick.Subscribe(delegate (bool v) { OnBattleClick(managerUi); }).AddTo(Toolbox.Instance);
             managerUi.stand.OnUnitClick.Subscribe(delegate (Dictionary<string, object> dataList) { OnUnitClick(managerUi, dataList); }).AddTo(Toolbox.Instance);
             managerUi.unitMenu.Back.onClick.AddListener(delegate { OnBackUnitClick(managerUi); });
-            managerUi.unitMenu.Upgrade.onClick.AddListener(delegate { OnUnitUpgrade(managerUi); SaveSystem.Save(dataPlayer); }) ;
+            managerUi.unitMenu.Upgrade.onClick.AddListener(delegate { OnUnitUpgrade(managerUi); }) ;
         }
 
         public void OnUnitUpgrade(ManagerUI manager)
@@ -80,6 +80,7 @@ namespace Homebrew
             dataPlayer.Gold.Value -= data.stats.UpgradeCost;
             data.stats.level += 1;
             manager.unitMenu.UpdateValues();
+            SaveSystem.Save(dataPlayer);
         }
 
         private void OnBackUnitClick(ManagerUI manager)
@@ -197,9 +198,9 @@ namespace Homebrew
                 managerUI.endGameMenu.Message("Victory");
 
                 var reward = GetReward(Enemy.GetData<DataAi>().difficult);
-                managerUI.endGameMenu.Reward = $"+{reward}";
                 dataPlayer.Gold.Value += reward;
-
+                managerUI.endGameMenu.Reward = $"+{reward}";
+                SaveSystem.Save(dataPlayer);
 
             }
         }

@@ -38,12 +38,15 @@ namespace TowerFight
             if (stands.Count > 0)
             {
                 if (stands[points[0]])
+                {
+                    points[0].GetComponent<StandPoint>().dataUnit = null;
                     Destroy(stands[points[0]].gameObject);
+                }
                 stands[points[0]] = Instantiate(dataUnit.prefab, points[0].position, Quaternion.identity).GetComponent<Unit>();
                 stands[points[0]].GetComponent<BoxCollider2D>().enabled = false;
                 stands[points[0]].transform.SetParent(points[0]);
                 stands[points[0]].AddTo(dataUnit);
-                points[0].GetComponent<StandPoint>().dataUnit = stands[points[0]].GetData<DataUnit>();
+                points[0].GetComponent<StandPoint>().dataUnit = dataUnit;
 
             }
         }
@@ -53,7 +56,10 @@ namespace TowerFight
             if (stands.Count > 0)
             {
                 if (stands[points[pos + 1]])
+                {
+                    points[pos + 1].GetComponent<StandPoint>().dataUnit = null;                  
                     Destroy(stands[points[pos + 1]]);
+                }
                 stands[points[pos + 1]] = Instantiate(dataUnit.prefab, points[pos + 1].position, Quaternion.identity).GetComponent<Unit>();
                 stands[points[pos + 1]].GetComponent<BoxCollider2D>().enabled = false;
                 stands[points[pos + 1]].transform.SetParent(points[pos + 1]);
@@ -64,10 +70,10 @@ namespace TowerFight
 
         public void SetUnits(List<DataUnit> dataUnits, int startPos)
         {
-            int count = 0;
+            int count = startPos;
             foreach (var item in dataUnits)
             {
-                SetUnit(item, startPos + count);
+                SetUnit(item, count);
                 count++;
             }
         }
@@ -75,7 +81,10 @@ namespace TowerFight
         public void RemoveUnit(int pos)
         {
             if (stands[points[pos + 1]])
+            {
+                points[pos + 1].GetComponent<StandPoint>().dataUnit = null;
                 Destroy(stands[points[pos + 1]]);
+            }
         }
         
 
@@ -84,7 +93,10 @@ namespace TowerFight
             foreach (var item in stands)
             {
                 if (item.Value)
+                {
+                    item.Key.GetComponent<StandPoint>().dataUnit = null;
                     Destroy(item.Value.gameObject);
+                }
             }
             var gameManager = Toolbox.Get<GameManager>();
             SetUnits(gameManager.dataPlayer.squad, 0);
@@ -128,11 +140,15 @@ namespace TowerFight
 
         public void ActivateUnit(DataUnit dataUnit)
         {
-            if(dataUnit)
-                foreach (var item in points)                
+            if (dataUnit)
+                foreach (var item in points)
                     if (stands[item])
-                        if (!stands[item].GetData<DataUnit>().stats.name.Equals(dataUnit.stats.name))                        
-                            item.gameObject.SetActive(false);                        
+                    {
+                        if (!stands[item].GetData<DataUnit>().stats.name.Equals(dataUnit.stats.name))
+                        {                            
+                            item.gameObject.SetActive(false);
+                        }
+                    }
                 
         }
 

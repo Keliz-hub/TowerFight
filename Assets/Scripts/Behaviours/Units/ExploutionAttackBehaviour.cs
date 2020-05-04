@@ -21,11 +21,10 @@ namespace TowerFight
                 DataUnit data = obj.GetData<DataUnit>();
                 LayerMask layerMask = data.stats.side == Side.right ? ManagerUnits.instans.leftUnitMask : ManagerUnits.instans.rightUnitMask;
                 Collider2D[] coliders = Physics2D.OverlapCircleAll(data.raycast.position, Radius, layerMask);
-                Debug.Log($"{data.stats.Damage} {coliders.Length}");
+                
 
                 foreach (var item in coliders)
-                {
-                    Debug.Log($"{item.name} {data.stats.Damage}");
+                {                  
                     if(item.tag == "Unit")
                     item.GetComponent<Unit>().SetDamage(data.stats.Damage);
                 }
