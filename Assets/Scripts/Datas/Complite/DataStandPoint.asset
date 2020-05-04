@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f55c8d3cf452b54a8ae1a38305d2e6b, type: 3}
+  m_Name: DataStandPoint
+  m_EditorClassIdentifier: 
+  standPoints:
+  - {fileID: 5876314239741640464, guid: 0ace1b031d4306b4bb9e536fbbb5abb3, type: 3}
+  - {fileID: 4343464580566810068, guid: 115243cb5f1f86149a671384eb334538, type: 3}
+  - {fileID: 1913042269774810161, guid: 9e3c010af0bf7fd46a2c517f4225d817, type: 3}
+  - {fileID: 2021122498945386741, guid: 82fb4e06ac9605a4aac30bee0f89ca6d, type: 3}
+  - {fileID: 3759873829678985146, guid: eaa7744d2fa53d144a48351dabe27d69, type: 3}
+  - {fileID: 8488167990244386946, guid: 392d8947ee1b79248a60a44d0e6609c8, type: 3}

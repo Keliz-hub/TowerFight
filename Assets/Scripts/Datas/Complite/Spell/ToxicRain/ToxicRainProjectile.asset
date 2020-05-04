@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffbafcf1f2528fa43ba2cdd008c9c170, type: 3}
+  m_Name: ToxicRainProjectile
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 1685747523164512890, guid: 64c1e96f600fc82438d13ea2a8dc7a3a, type: 3}
+  Speed: 5

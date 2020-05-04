@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4384da604eaa6e4b84a01fa8bd2ca7c, type: 3}
+  m_Name: DataUI
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 5254444612748605647, guid: 4b99bff149110bf4798600bdf9021028, type: 3}
+  gameMenu: {fileID: 8161346738268785229, guid: 6ee8c41ff4846eb4db6edd90fb92277e,
+    type: 3}
+  difficultMenu: {fileID: 6119810532526866040, guid: 058787c0b78b9de48af3b1381d6dbdf4,
+    type: 3}
+  squadMenu: {fileID: 418099476457160159, guid: f45663e0c8593a9419e481f759bea65a,
+    type: 3}
+  unitMenu: {fileID: 6109952644022434207, guid: 8bdfca4028e75ac408134401602d6e34,
+    type: 3}
+  stand: {fileID: 6135808657859673951, guid: a05df0bc78fe88642ae2ed38b7f104e5, type: 3}
+  battleMenuContainer: {fileID: 409798322270323170, guid: 4d80867bf3c9f9d49bacbc899327b5ea,
+    type: 3}
+  container: {fileID: 5106406718639524444, guid: 21566559a7e0f9744aec24cb91f19f5c,
+    type: 3}
+  pauseMenu: {fileID: 5660617582520408115, guid: 492da2859bb00cb4b85f04736f70bd8b,
+    type: 3}
+  endGame: {fileID: 6839272214485226780, guid: ad9b8fd4fcaacde499a0f8c0af4492c3, type: 3}
+  spell: {fileID: 2605248519514387529, guid: c780160812e26a74485399cd43bdfb80, type: 3}
+  unit: {fileID: 4290538587849811126, guid: f061e39686588964baad1a97838c1316, type: 3}
+  mana: {fileID: 6062882883158758315, guid: ed8787b9612f0894b937997fb478e43a, type: 3}
+  prefabLeftBar: {fileID: 4357039669893254636, guid: 5999bba97332c20428d929a73612c27a,
+    type: 3}
+  prefabRightBar: {fileID: 8040548900165940821, guid: df17e50ac30e5d34d8f1067bbc6e7b16,
+    type: 3}
+  prefabPause: {fileID: 4901238265248629716, guid: 0417e7919c47795409b0a3616ea8a25e,
+    type: 3}

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69e941bade753e04981068013b6104bc, type: 3}
+  m_Name: HeavySkeleton
+  m_EditorClassIdentifier: 
+  icon: {fileID: 0}
+  prefab: {fileID: 1745737157959646078, guid: fc56a77f578555e48b8688d055f31340, type: 3}
+  CanAttack: 1
+  stats:
+    side: 0
+    attackType: 0
+    name: Heavy Skeleton
+    speed: 1.5
+    manaCost: 300
+    spawnCountdown: 20
+    maxHitPoint: 1000
+    hitPoint: 1000
+    damage: 500
+    upgradeCost: 300
+    attackSpeed: 0.1
+    attackDistance: 1
+    level: 1

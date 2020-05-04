@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69e941bade753e04981068013b6104bc, type: 3}
+  m_Name: RougeKnight
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300032, guid: 317b8365a4649ab459f6cb58ec8f9f18, type: 3}
+  prefab: {fileID: 4746577250500370225, guid: 715ffc626245ae84b8360395ad4706cb, type: 3}
+  CanAttack: 1
+  stats:
+    side: 0
+    attackType: 0
+    name: Rouge Knight
+    speed: 2.5
+    manaCost: 90
+    spawnCountdown: 6
+    maxHitPoint: 650
+    hitPoint: 650
+    damage: 60
+    upgradeCost: 80
+    attackSpeed: 0.5
+    attackDistance: 1
+    level: 1

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee404a0a1408a6c4ba56b66804f68bec, type: 3}
+  m_Name: ManagerUnits
+  m_EditorClassIdentifier: 
+  debug: 0
+  unitBase: {fileID: 11400000, guid: 95fc9538ff333944b979661c55a87126, type: 2}
+  rightPointPrefab: {fileID: 706093282746055066, guid: 6ee46445cc730584eb9eed721b964a42,
+    type: 3}
+  leftPointPrefab: {fileID: 1333258117707686072, guid: 6f753594ad9f5bc4c8778f472ca8b49d,
+    type: 3}
+  rightUnitMask:
+    serializedVersion: 2
+    m_Bits: 512
+  leftUnitMask:
+    serializedVersion: 2
+    m_Bits: 256

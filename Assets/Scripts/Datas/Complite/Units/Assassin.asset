@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69e941bade753e04981068013b6104bc, type: 3}
+  m_Name: Assassin
+  m_EditorClassIdentifier: 
+  icon: {fileID: 0}
+  prefab: {fileID: 1354623361145699654, guid: 8388098469ae67b43a6f0879d14c4ea2, type: 3}
+  CanAttack: 1
+  stats:
+    side: 0
+    attackType: 0
+    name: Assassin
+    speed: 2.5
+    manaCost: 80
+    spawnCountdown: 5
+    maxHitPoint: 300
+    hitPoint: 300
+    damage: 60
+    upgradeCost: 100
+    attackSpeed: 1.2
+    attackDistance: 1.2
+    level: 1

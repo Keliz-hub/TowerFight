@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 231d89ec137030f45b06646e31a1703b, type: 3}
+  m_Name: DataPlayer
+  m_EditorClassIdentifier: 
+  Player: 1
+  manaFlows: 1
+  startMaxMana: 100
+  upgradeMana: 100
+  upgradeManaCost: 100
+  side: 0
+  dataTower: {fileID: 11400000, guid: 6f9b253b4e5aebd4099f0610381fddc1, type: 2}
+  playerTowers:
+  - {fileID: 11400000, guid: 6f9b253b4e5aebd4099f0610381fddc1, type: 2}
+  - {fileID: 11400000, guid: a56d92feb306f564f94b7d54048a8b6f, type: 2}
+  playerUnits:
+  - {fileID: 11400000, guid: b11ee04301038004aaf604b2d68e5205, type: 2}
+  - {fileID: 11400000, guid: d33f1ce650c39a048910c58c362972e2, type: 2}
+  - {fileID: 11400000, guid: 71072d4a86175ae4b8bf12b4f67de65c, type: 2}
+  - {fileID: 11400000, guid: c9bb2445b6333f7459740bdce5530509, type: 2}
+  - {fileID: 11400000, guid: 1ae4314dbae1903498854f09c1310165, type: 2}
+  - {fileID: 11400000, guid: 8cc4c0fc07d40cf41afe4acc5aae92f2, type: 2}
+  - {fileID: 11400000, guid: c49900caa71f1764e8edc67fbd00e713, type: 2}
+  - {fileID: 11400000, guid: 9fb06fcc104cd644ba3424851e1a1c29, type: 2}
+  squad:
+  - {fileID: 11400000, guid: 9fb06fcc104cd644ba3424851e1a1c29, type: 2}
+  - {fileID: 11400000, guid: 71072d4a86175ae4b8bf12b4f67de65c, type: 2}
+  - {fileID: 11400000, guid: c9bb2445b6333f7459740bdce5530509, type: 2}
+  - {fileID: 11400000, guid: 1ae4314dbae1903498854f09c1310165, type: 2}
+  - {fileID: 11400000, guid: d33f1ce650c39a048910c58c362972e2, type: 2}
