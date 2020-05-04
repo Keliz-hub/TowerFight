@@ -20,9 +20,12 @@
 <strong>Не выполнено:</strong> На башню можно устанавливать атакующие модули (например, лучник)<br>
 <strong>Не выполнено:</strong> Размер поля больше размера экрана</p>
 
+<h2>Видео пример</h2>
+[![IMAGE ALT TEXT HERE](https://i9.ytimg.com/vi/NHFcBUlkLxY/hqdefault.jpg?time=1588615337211&sqp=CKCwwfUF&rs=AOn4CLBG24GTkgcamZOZ6jGyXrKipfSoBg)](https://youtu.be/NHFcBUlkLxY)
+
+
 <h2>Скриншоты</h2>
 <h3>Главное меню.</h3>
-
 <img src="https://github.com/Keliz-hub/TowerFight/blob/master/Images/bandicam%202020-05-04%2016-19-54-514.jpg" width="320">
 
 <h3>Главное меню. Отряд</h3>
