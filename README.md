@@ -34,7 +34,7 @@
 
 <img src="https://github.com/Keliz-hub/TowerFight/blob/master/Images/bandicam%202020-05-04%2016-25-44-497.jpg" width="320">
 
-<h3>Главное меню. Сложность противника(Надо нажать на юнита)</h3>
+<h3>Главное меню. Сложность противника</h3>
 <p>От сложности противника зависит количество золота получаемого от победы над ним.</p>
 
 <img src="https://github.com/Keliz-hub/TowerFight/blob/master/Images/bandicam%202020-05-04%2016-22-15-118.jpg" width="320">
