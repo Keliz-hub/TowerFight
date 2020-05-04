@@ -21,7 +21,7 @@
 <strong>Не выполнено:</strong> Размер поля больше размера экрана</p>
 
 <h2>Видео пример</h2>
-[![IMAGE ALT TEXT HERE](https://i9.ytimg.com/vi/NHFcBUlkLxY/hqdefault.jpg?time=1588615337211&sqp=CKCwwfUF&rs=AOn4CLBG24GTkgcamZOZ6jGyXrKipfSoBg)](https://youtu.be/NHFcBUlkLxY)
+[![IMAGE ALT TEXT HERE](https://github.com/Keliz-hub/TowerFight/blob/master/Images/bandicam%202020-05-04%2016-23-12-278.jpg)](https://youtu.be/NHFcBUlkLxY)
 
 
 <h2>Скриншоты</h2>
