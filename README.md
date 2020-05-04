@@ -2,7 +2,7 @@
 <h2>Unity 2020.1.0b1</h2>
 
 [Скачать APK](https://drive.google.com/open?id=1XHnRlrRoNxP_4lrbQ0JpEepvEFRoXCbG)
-<img src="https://github.com/Chobotov/Project-Battle/blob/master/Assets/Screenshots/MainMenuTower.jpg" width="320">
+<img src="https://github.com/Keliz-hub/TowerFight/blob/master/Assets/Sprits/Ui/137-1372443_mana-potion-pixel-art-clipart-png-download-pixel.png" width="320">
 
 
 <p>Игра разработана специально для конкурса <strong>Black Bears Coding Challenge 2020</strong> от компании <strong>Black Bears</strong>.</p>
