@@ -1,7 +1,7 @@
 <h1>TowerFight</h1>
 <h2>Unity 2020.1.0b1</h2>
 
-[Скачать APK](https://drive.google.com/open?id=1XHnRlrRoNxP_4lrbQ0JpEepvEFRoXCbG)
+[Скачать APK](https://drive.google.com/file/d/1EvRmdCTXqi0B255XG7NFM1faU-_B_q2p/view?usp=sharing)
 <img src="https://github.com/Keliz-hub/TowerFight/blob/master/Assets/Sprits/Ui/137-1372443_mana-potion-pixel-art-clipart-png-download-pixel.png" width="320">
 
 
