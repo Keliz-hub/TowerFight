@@ -41,7 +41,7 @@ namespace Homebrew
                 var data = SaveSystem.Load(UnitBase, prefabDataPlayer);
                 if (data)
                 {
-                    dataPlayer = data;
+                    dataPlayer = data;                  
                 }
                 else
                 {

@@ -45,7 +45,19 @@ namespace TowerFight
         public bool Activate
         {
             get => gameObject.activeSelf;
-            set => gameObject.SetActive(value);
+            set
+            {
+                if(value == true)
+                {
+                    foreach (var item in units)
+                    {
+                        if (item.Value.dataUnit)
+                            item.Value.Level = item.Key.stats.level.ToString();
+                    }
+                }
+                gameObject.SetActive(value);
+
+            }
         }
 
 

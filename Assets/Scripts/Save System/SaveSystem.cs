@@ -105,8 +105,11 @@ namespace TowerFight
             }
             dataPlayer.playerTowers = playerTowers;
 
-
-            dataPlayer.dataTower = playerTowers[(int)data[PlayerActiveTower]];
+            var activeTowerNumber = (int)data[PlayerActiveTower];
+            if (activeTowerNumber >= 0 && playerTowers.Count > activeTowerNumber)
+                dataPlayer.dataTower = playerTowers[activeTowerNumber];
+            else
+                dataPlayer.dataTower = playerTowers[0];
 
             return dataPlayer;
 

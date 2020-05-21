@@ -192,7 +192,6 @@ namespace Homebrew
                     break;
                 case StateUi.pause:
                     pauseMenu.Activate = false;
-                    //BattleMenuActivate(false);
                     break;
                 case StateUi.option:
                     break;
